@@ -167,7 +167,7 @@
 
 	<!-- Run unit tests -->
 	<target name="test">
-		<exec command="./vendor/phpunit/phpunit/composer/bin/phpunit --bootstrap=vendor/kohana/unittest/bootstrap_all_modules.php vendor/kohana/unittest/tests.php" checkreturn="true" passthru="true"/>
+		<exec command="./vendor/bin/phpunit --bootstrap=vendor/kohana/unittest/bootstrap_all_modules.php vendor/kohana/unittest/tests.php" checkreturn="true" passthru="true"/>
 	</target>
 
 
